@@ -17,6 +17,7 @@ Flutter plugin for QQ.
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
   s.dependency 'QQSDK'
+  s.static_framework = true
   
   s.ios.deployment_target = '8.0'
 end
